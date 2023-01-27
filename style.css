@@ -5,51 +5,55 @@
 }
 
 body {
-  margin-top: 80px !important;
-}
-
-h1,
-h3 {
-  text-align: center;
-  margin: 0;
+  font-family: "Poppins", sans-serif !important;
 }
 
 h1 {
+  font-family: "Playfair Display", serif;
   font-size: 96px !important;
+  line-height: 128px !important;
 }
 
 h2 {
   font-size: 48px !important;
+  font-family: "Playfair Display", serif;
 }
 
 h3 {
-  font-size: 24px;
-  opacity: 0.7;
+  font-size: 24px !important;
+  line-height: 36px !important;
+  color: #272142;
+  margin-top: 30px !important;
+  margin-bottom: 49px !important;
 }
 
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
+.start-screen {
+  padding-top: 276px;
+  height: 900px;
+  width: auto;
+  background-color: var(--secondary-color);
+  text-align: center;
 }
 
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
+.hi-i-am {
+  font-weight: bold;
+  font-size: 36px;
 }
 
 .contact-link {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  margin: 20px auto;
+  width: 200px;
+  height: auto;
+  border-radius: 4px;
+  text-decoration: none;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  font-size: 18px;
+  padding: 18px 30px;
 }
 
 .homepage-link {
