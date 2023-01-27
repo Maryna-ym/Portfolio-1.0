@@ -28,11 +28,13 @@ h3 {
 }
 
 .start-screen {
-  padding-top: 276px;
-  height: 900px;
-  width: auto;
+  padding: 160px 0;
   background-color: var(--secondary-color);
   text-align: center;
+}
+
+.navbar {
+  margin: 0 165px;
 }
 
 .hi-i-am {
@@ -62,9 +64,21 @@ h3 {
   display: block;
 }
 
+.container h2 {
+  font-size: 64px !important;
+}
+
+.container p {
+  font-size: 16px !important;
+}
+
+.app-info {
+  padding: 100px 60px !important;
+}
+
 .btn-purple {
-  background: var(--primary-color);
-  color: white;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
   text-decoration: none;
 }
 .about-paragraphs {
@@ -87,8 +101,20 @@ h3 {
 .email-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 1200px) {
+  .app-info {
+    padding: 50px 30px !important;
+    margin-top: 20px;
+  }
+  .container h2 {
+    font-size: 44px !important;
+  }
+  .container p {
+    font-size: 14px !important;
+  }
+}
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   h2 {
     text-align: center !important;
   }
@@ -97,7 +123,11 @@ h3 {
   }
   .app-link {
     display: block;
-    margin: 0 20px;
+    margin: 0 80px;
     text-align: center;
+  }
+  .app-info {
+    text-align: center;
+    padding: 20px !important;
   }
 }
