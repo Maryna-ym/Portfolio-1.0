@@ -19,6 +19,10 @@ h2 {
   font-size: 48px !important;
 }
 
+.navbar-collapse {
+  justify-content: end;
+}
+
 .start-screen {
   padding: 160px 0;
   background-color: var(--secondary-color);
@@ -38,7 +42,10 @@ h2 {
 }
 
 .navbar {
-  margin: 0 100px;
+  width: 100%;
+  height: auto;
+  padding: 5px 100px !important;
+  background-color: #fff;
 }
 
 .logo-nav {
@@ -147,6 +154,13 @@ h2 {
   .aboutme-box .contact-link {
     margin: 0 auto;
     margin-bottom: 40px;
+  }
+
+  .navbar,
+  .aboutme-box,
+  .work-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 }
 
