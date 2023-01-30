@@ -97,14 +97,12 @@ h2 {
 }
 
 .email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
+  color: #272142;
   text-decoration: none;
 }
 
 .email-link:hover {
+  color: #272142;
   text-decoration: underline;
 }
 
@@ -123,7 +121,8 @@ h2 {
 }
 
 @media (max-width: 768px) {
-  h2 {
+  h2,
+  .work-container h1 {
     text-align: center !important;
   }
   .start-screen h1 {
