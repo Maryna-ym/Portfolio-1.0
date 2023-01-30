@@ -113,7 +113,8 @@ h2 {
     padding: 50px 30px !important;
     margin-top: 20px;
   }
-  .container h2 {
+  .container h2,
+  .work-container h1 {
     font-size: 44px !important;
   }
   .container p {
@@ -150,13 +151,13 @@ h2 {
   }
 }
 
-/* // About me */
-
-.aboutme-box {
+.aboutme-box,
+.work-container {
   padding: 150px 100px;
 }
 
-.aboutme-box h1 {
+.aboutme-box h1,
+.work-container h1 {
   font-size: 64px;
 }
 
@@ -164,6 +165,12 @@ h2 {
   font-size: 18px;
   line-height: 27px;
   margin: 29px 0;
+  font-weight: bold;
+}
+
+.work-container h3 {
+  font-size: 24px;
+  line-height: 36px;
   font-weight: bold;
 }
 
